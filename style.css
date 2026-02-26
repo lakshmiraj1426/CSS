@@ -1,0 +1,13 @@
+h1{
+    background-color:cyan;
+    color:red;
+    padding:20px;
+    text-align:center;
+}
+p{
+    color:darkred;
+    font-size:large;
+}
+button{
+    background-color:green;
+}
