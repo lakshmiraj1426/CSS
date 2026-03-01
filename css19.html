@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            background:lightblue url("https://picsum.photos/800/600")no-repeat center center fixed;
+            background-size: cover;
+        }
+        .box{
+            width:500px;
+            height: 300px;
+            margin:50px auto;
+            padding:30px;
+            border:10px solid black;
+            background-color: yellow;
+            background-image:url("https://picsum.photos/800/600");
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-size:150px 150px;
+            background-attachment: scroll;
+            background-origin: content-box;
+            background-clip:content-box;
+        }
+        .inline-text{
+            background-color:orange;
+            padding:10px;
+            border: 2px solid red;
+             background-clip:border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">This Box demonstrates background properties</div>
+    <div class="inline-text">This text shows background on inline content</div>
+</body>
+</html>
